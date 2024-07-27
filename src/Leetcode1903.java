@@ -5,8 +5,7 @@ public class Leetcode1903 {
            int l=str.length()-1;
            while(l>=0)
            {
-               int a=Integer.parseInt(String.valueOf( str.charAt(l)));
-               if((a&1)==1)
+               if((str.charAt(l)&1)==1)
                {
                    break;
                }
