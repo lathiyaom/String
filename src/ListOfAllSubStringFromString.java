@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ListOfAllSubStringFromString {
     public static void main(String[] args) {
-        String str="abcd";
+        String str="abc";
 
         //the output is a,ab,abc,b,bc,c
         //formula to how many substring i can get from a length n*(n+1)/2
