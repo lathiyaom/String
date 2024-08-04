@@ -11,7 +11,7 @@ public class LexicographicalNumbersLeetcode386 {
         lexicalOrder(n,1);
         System.out.println(ans);
     }
-    public static void lexicalOrder(int n,int curr) {
+    private static void lexicalOrder(int n,int curr) {
 
         if(curr>n)
             return;
