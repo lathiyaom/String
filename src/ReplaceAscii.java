@@ -5,7 +5,7 @@ public class ReplaceAscii {
         System.out.println(ChangeTheAscii(str));
 
     }
-
+        //TM=o(n) SP=o(n)
     public static  String  ChangeTheAscii(String str){
             if(str.isEmpty()) return "";
             char[] ch = str.toCharArray();
